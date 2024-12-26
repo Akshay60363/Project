@@ -1,4 +1,5 @@
 import streamlit as st
+!pip install torch transformers
 import torch
 from transformers import LongformerTokenizer, LongformerForSequenceClassification
 
