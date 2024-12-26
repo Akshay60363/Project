@@ -16,4 +16,4 @@ This app predicts ICD-9 codes from medical summaries using a fine-tuned Longform
 ## Live Demo
 
 You can try out the live version of the application deployed with Streamlit:  
-[**View the Streamlit App**](https://my-streamlit-app.herokuapp.com
+[**View the Streamlit App**](https://clinicalcoding-rs5kqpe2uxr8m3rrgsquvw.streamlit.app/
