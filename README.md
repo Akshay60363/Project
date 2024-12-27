@@ -15,5 +15,5 @@ This app predicts ICD-9 codes from medical summaries using a fine-tuned Longform
 
 ## Live Demo
 
-You can try out the live version of the application deployed with Streamlit:  
+You can try out the live version of the application deployed with huggingface:  
 [**View the hugging face**](https://huggingface.co/spaces/adithiyyha/clincalcii
