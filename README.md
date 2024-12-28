@@ -11,7 +11,7 @@ This app predicts ICD-9 codes from medical summaries using a fine-tuned Longform
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/icd9-code-prediction.git
-   cd icd9-code-prediction
+   cd icd9_ui.py
 
 ## Live Demo
 
