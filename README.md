@@ -4,7 +4,7 @@ This app predicts ICD-9 codes from medical summaries using a fine-tuned Longform
 
 ## Features
 - User-friendly UI for entering clinical text and predicting ICD-9 codes.
-- Supports multiple models like HiLAT, ClinicalLongformer, etc.
+- Supports multiple models like ClinicalLongformer, etc.
 
 ## Setup
 
