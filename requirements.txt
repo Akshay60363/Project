@@ -25,8 +25,7 @@ phidata
 # Machine learning and preprocessing
 scikit-learn
 albumentations
-albumentations[imgaug]
-albumentations[pytorch]
+
 
 # PDF processing
 pdfplumber
