@@ -1,7 +1,7 @@
 # Flask-related dependencies
 Flask
 Flask-Cors
-
+gunicorn
 # PyTorch and torchvision
 torch
 torchvision
