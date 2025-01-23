@@ -2,7 +2,8 @@
 Flask
 Flask-Cors
 gunicorn
-# PyTorch and torchvision
+
+# PyTorch and related dependencies (CPU version)
 torch
 torchvision
 torchaudio
@@ -13,11 +14,14 @@ transformers
 
 # PIL (Python Imaging Library)
 pillow
+
+# OpenAI API
 openai
 
 # phi-related dependencies
 phi
 phidata
+
 # Machine learning and preprocessing
 scikit-learn
 albumentations
@@ -27,18 +31,16 @@ albumentations[pytorch]
 # PDF processing
 pdfplumber
 
-# Google Generative AI
+# Google Generative AI and related tools
 google-generativeai
 duckduckgo-search
 gemini
 newspaper4k
+
 # Data manipulation
 pandas
 numpy
-spacy
 
+# SpaCy and English model
 spacy
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
-
-# NLP processing
-
