@@ -10,8 +10,15 @@ from PIL import Image
 from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import Dataset, DataLoader
 
+# Ensure the spaCy model is available
+import spacy.cli
 
-spacy_eng = spacy.load('en_core_web_sm')
+try:
+    spacy_eng = spacy.load('en_core_web_sm')
+except OSError:
+    print("Downloading 'en_core_web_sm' model...")
+    spacy.cli.download('en_core_web_sm')
+    spacy_eng = spacy.load('en_core_web_sm')
 
 
 class Vocabulary:
@@ -99,7 +106,6 @@ class XRayDataset(Dataset):
                 self.captions.append(findings)
                 self.imgs.append(frontal_img)
                 
-
         self.vocab.build_vocabulary(self.captions)
 
     def __getitem__(self, item):
