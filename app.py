@@ -16,7 +16,7 @@ from PIL import Image
 from phi.agent import Agent
 from phi.model.openai import OpenAIChat
 from phi.tools.duckduckgo import DuckDuckGo
-from phi.tools.newspaper4k import Newspaper4k
+
 from phi.model.google import Gemini
 # from phi.api import *
 # import streamlit as st
