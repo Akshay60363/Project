@@ -29,10 +29,17 @@ pdfplumber
 
 # Google Generative AI
 google-generativeai
-
+duckduckgo-search
+gemini
+newspaper4k
 # Data manipulation
 pandas
 numpy
+json
+spacy
+re
+spacy
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
 
 # NLP processing
-spacy
+
