@@ -13,7 +13,7 @@ transformers
 
 # PIL (Python Imaging Library)
 pillow
-
+openai
 
 # phi-related dependencies
 phi
