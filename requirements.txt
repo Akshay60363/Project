@@ -1,44 +1,20 @@
-# Flask-related dependencies
-Flask
-Flask-Cors
-gunicorn
+Flask==2.3.2
+gunicorn==20.1.0
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.1
+transformers==4.31.0
+numpy==1.24.3
+Pillow==9.5.0
+albumentations==1.3.0
+scikit-learn==1.2.2
+pdfplumber==0.8.0
+spacy==3.5.2
+Flask-Cors==3.0.10
+openai==0.27.8
+scapy==2.5.0
+newspaper4k==0.2.8
+duckduckgo-search==2.8.7
+phi==0.6.7
+phidata==2.7.9
 
-# PyTorch and related dependencies (CPU version)
-torch
-torchvision
-torchaudio
--f https://download.pytorch.org/whl/cpu
-
-# Transformers library
-transformers
-
-# PIL (Python Imaging Library)
-pillow
-
-# OpenAI API
-openai
-
-# phi-related dependencies
-phi
-phidata
-
-# Machine learning and preprocessing
-scikit-learn
-albumentations
-
-
-# PDF processing
-pdfplumber
-
-# Google Generative AI and related tools
-google-generativeai
-duckduckgo-search
-gemini
-newspaper4k
-
-# Data manipulation
-pandas
-numpy
-
-# SpaCy and English model
-spacy
