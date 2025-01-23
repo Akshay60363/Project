@@ -1,6 +1,6 @@
 import logging
 import os
-import torchpip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+import torch
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from PIL import Image
